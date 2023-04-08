@@ -1,0 +1,158 @@
+html{
+    height: -webkit-fill-available;
+} 
+
+body{
+    height: 100%;
+}
+
+.container-fluid {
+
+/*	border: solid yellow;*/
+	background-color: black;
+}
+
+.navbar{
+
+	background-color: black;
+}
+
+.navbar-brand{
+
+	font-family:"Lucida Console",Monaco, monospace ;
+/*	background-color: black;*/
+	font-size: 50px;
+	color: limegreen;
+	margin-left: 15px;
+}
+
+.navbar-nav{
+
+	margin-right: 45px;
+}
+
+.nav-link{
+
+	font-family: "Lucida Console",Monaco, monospace ;
+	font-size: 20px;
+	color: limegreen;
+}
+
+/*.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
+}
+*/
+.custom-toggler.navbar-toggler{
+
+	border-color: rgba(0, 128, 0, 0.8);
+/*	border: 10px;*/
+/*	margin-left:20px;*/
+
+}
+
+.custom-toggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+       
+
+        }
+
+/*.parallax-window {
+    min-height: 660px;
+    background: transparent;
+}*/
+
+/*.title{
+
+	font-family:"Lucida Console",Monaco, monospace ;
+	color: limegreen;
+}*/
+
+.parallax-window {
+    min-height: 1000px;
+    background: transparent;
+    padding: 350px 0px;
+    text-align: center;
+/*    color: white;*/
+}
+
+.content_topic{
+
+
+}
+
+.heading{
+
+	background-color: rgba(0, 0, 0, 0.6);
+	font-size: 55px;
+	font-family:"Lucida Console",Monaco, monospace ;
+	color: limegreen;
+	line-height: 0.5em;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+/*	text-align: justify;*/
+	
+}
+
+.title_content{
+
+	font-size: 20px;
+}
+
+.prof{
+
+	color: white;
+	font-size: 20px;
+}
+
+.hash{
+
+	color: white;
+	font-size: 25px;
+}
+
+.bottom{
+
+	color: limegreen;
+	background-color: black;
+}
+
+.name{
+
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	text-align: right;
+	color: limegreen;
+}
+
+/*Hover effects in the nav bar*/
+
+.contribution{
+
+	color: limegreen;
+	text-decoration: none !important;
+}
+
+.nav-link:hover {
+
+	color: white ;
+}
+.dropdown-toggle:active {
+
+	color: white;
+
+}
+
+.navbar-brand:hover {
+
+	color: white;
+}
+
+.contribution:hover {
+
+	color: white;
+}
+
