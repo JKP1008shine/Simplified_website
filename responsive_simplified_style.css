@@ -25,7 +25,10 @@ body{
 	color: limegreen;
 	margin-left: 15px;
 }
+.navbar-brand:hover {
 
+	color: limegreen;
+}
 .navbar-nav{
 
 	margin-right: 45px;
@@ -107,34 +110,8 @@ body{
 	font-size: 20px;
 }
 
-.hash{
-
-	color: white;
-	font-size: 25px;
-}
-
-.bottom{
-
-	color: limegreen;
-	background-color: black;
-}
-
-.name{
-
-	padding-top: 50px;
-	padding-right: 50px;
-	padding-bottom: 50px;
-	text-align: right;
-	color: limegreen;
-}
 
 /*Hover effects in the nav bar*/
-
-.contribution{
-
-	color: limegreen;
-	text-decoration: none !important;
-}
 
 .nav-link:hover {
 
@@ -146,9 +123,87 @@ body{
 
 }
 
-.navbar-brand:hover {
+.textbox{
+
+/*	color: rgba(255, 255, 255, 0.8);*/
+	padding-top: 100px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	text-align: left;
+	color: rgba(163, 165, 168,1.0);
+}
+
+.texbox_container{
+
+/*	background-color: rgba(163, 165, 168,0.6);*/
+	border: solid rgba(163, 165, 168,0.4) ;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+/*	min-width: 45%;*/
+}
+
+.words{
+
+	color: rgba(3, 252, 28,0.7);
+}
+
+.second-textbox{
+
+	text-align: right;
+	padding-bottom: 100px;
+}
+
+.darkcolour-w{
+
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.darkcolour-lg{
+
+	color: rgba(3, 252, 28,0.8);
+}
+
+.full-video{
+
+	color: rgba(3, 252, 28,0.8);
+	text-decoration: none;
+}
+
+.full-video:hover {
+
+	color: rgba(3, 252, 28,0.8);
+	text-decoration: underline;
+}
+
+/*Ending container*/
+
+.hash{
 
 	color: white;
+	font-size: 25px;
+}
+
+.bottom{
+
+/*	margin-top:15px ;*/
+	color: black;
+	background-color: rgba(125, 130, 125, 0.6);
+}
+
+.name{
+
+	padding-top: 50px;
+	padding-right: 50px;
+/*	padding-bottom: 25px;*/
+	text-align: right;
+	color: black;
+}
+
+.contribution {
+
+	color: black;
 }
 
 .contribution:hover {
@@ -156,3 +211,32 @@ body{
 	color: white;
 }
 
+.extra_title{
+
+
+	color: rgba(0, 0, 0, 1.0);
+	font-family: "Lucida Console",Monaco, monospace ;
+}
+
+.extra_description{
+
+
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 5px;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.8);
+	font-family: "Lucida Console",Monaco, monospace ;
+
+}
+
+.mailid{
+
+	color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+.mailid:hover{
+
+	color: black;
+}
