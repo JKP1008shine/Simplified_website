@@ -240,3 +240,27 @@ body{
 
 	color: black;
 }
+
+
+
+/*Network style*/
+
+.network-title{
+
+	border: none;
+	text-align: center;
+
+}
+
+.network-content{
+
+/*	font-size: 15px;*/
+	color: white;
+	text-align: justify;
+}
+
+.topics-list{
+
+	color: white;
+	text-align: left;
+}
