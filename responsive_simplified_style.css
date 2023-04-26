@@ -41,6 +41,13 @@ body{
 	color: limegreen;
 }
 
+
+.disabled-link{
+
+	color: gray;
+	pointer-events: none;
+}
+
 /*.navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;..");
 }
@@ -252,12 +259,12 @@ body{
 
 }
 
-.network-content{
+/*.network-content{
 
-/*	font-size: 15px;*/
+	font-size: 15px;
 	color: white;
 	text-align: center;
-}
+}*/
 
 .topics-discussed{
 
@@ -272,3 +279,28 @@ body{
 	text-align: left;
 	text-decoration: none;
 }
+
+/*UNIX style*/
+
+.caption{
+
+	color: white;
+	font-family: "Lucida Console",Monaco, monospace ;
+
+
+}
+
+.Shell-title{
+
+	text-align: left;
+	border: none;
+	padding-left: 15px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	color: limegreen;
+/*	border-bottom: solid limegreen  ;*/
+}
+
+/*--------------------UNIX STYLE ENDS----------------------*/
+
