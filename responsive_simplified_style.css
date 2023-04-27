@@ -278,9 +278,10 @@ body{
 	color: white;
 	text-align: left;
 	text-decoration: none;
+	font-size: 20px;
 }
 
-/*UNIX style*/
+/*Tech_ethics style*/
 
 .caption{
 
@@ -290,7 +291,7 @@ body{
 
 }
 
-.Shell-title{
+.Start-title{
 
 	text-align: left;
 	border: none;
@@ -302,5 +303,23 @@ body{
 /*	border-bottom: solid limegreen  ;*/
 }
 
-/*--------------------UNIX STYLE ENDS----------------------*/
+.lightcolor-w{
+
+	color: rgba(163, 165, 168,1.0);
+}
+
+.refer{
+
+	color: limegreen;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.refer:hover{
+
+	color: white;
+	text-decoration: underline;
+}
+
+/*--------------------Tech_ethics STYLE ENDS----------------------*/
 
