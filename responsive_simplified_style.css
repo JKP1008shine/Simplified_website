@@ -308,6 +308,15 @@ body{
 	color: rgba(163, 165, 168,1.0);
 }
 
+.big-word-35{
+
+	font-size: 35px;
+}
+
+.big-word-25{
+	font-size: 25px;
+}
+
 .refer{
 
 	color: limegreen;
