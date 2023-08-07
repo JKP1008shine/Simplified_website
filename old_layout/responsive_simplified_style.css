@@ -1,0 +1,334 @@
+html{
+    height: -webkit-fill-available;
+} 
+
+body{
+    height: 100%;
+}
+
+.container-fluid {
+
+/*	border: solid yellow;*/
+	background-color: black;
+}
+
+.navbar{
+
+	background-color: black;
+}
+
+.navbar-brand{
+
+	font-family:"Lucida Console",Monaco, monospace ;
+/*	background-color: black;*/
+	font-size: 50px;
+	color: limegreen;
+	margin-left: 15px;
+}
+.navbar-brand:hover {
+
+	color: limegreen;
+}
+.navbar-nav{
+
+	margin-right: 45px;
+}
+
+.nav-link{
+
+	font-family: "Lucida Console",Monaco, monospace ;
+	font-size: 20px;
+	color: limegreen;
+}
+
+
+.disabled-link{
+
+	color: gray;
+	pointer-events: none;
+}
+
+/*.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
+}
+*/
+.custom-toggler.navbar-toggler{
+
+	border-color: rgba(0, 128, 0, 0.8);
+/*	border: 10px;*/
+/*	margin-left:20px;*/
+
+}
+
+.custom-toggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+       
+
+        }
+
+/*.parallax-window {
+    min-height: 660px;
+    background: transparent;
+}*/
+
+/*.title{
+
+	font-family:"Lucida Console",Monaco, monospace ;
+	color: limegreen;
+}*/
+
+.parallax-window {
+    min-height: 1000px;
+    background: transparent;
+    padding: 350px 0px;
+    text-align: center;
+/*    color: white;*/
+}
+
+.content_topic{
+
+
+}
+
+.heading{
+
+	background-color: rgba(0, 0, 0, 0.6);
+	font-size: 55px;
+	font-family:"Lucida Console",Monaco, monospace ;
+	color: limegreen;
+	line-height: 0.5em;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+/*	text-align: justify;*/
+	
+}
+
+.title_content{
+
+	font-size: 20px;
+}
+
+.prof{
+
+	color: white;
+	font-size: 20px;
+}
+
+
+/*Hover effects in the nav bar*/
+
+.nav-link:hover {
+
+	color: white ;
+}
+.dropdown-toggle:active {
+
+	color: white;
+
+}
+
+.textbox{
+
+/*	color: rgba(255, 255, 255, 0.8);*/
+	padding-top: 100px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	text-align: left;
+	color: rgba(163, 165, 168,1.0);
+}
+
+.texbox_container{
+
+/*	background-color: rgba(163, 165, 168,0.6);*/
+	border: solid rgba(163, 165, 168,0.4) ;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+/*	min-width: 45%;*/
+}
+
+.words{
+
+	color: rgba(3, 252, 28,0.7);
+}
+
+.second-textbox{
+
+	text-align: right;
+	padding-bottom: 100px;
+}
+
+.darkcolour-w{
+
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.darkcolour-lg{
+
+	color: rgba(3, 252, 28,0.8);
+}
+
+.full-video{
+
+	color: rgba(3, 252, 28,0.8);
+	text-decoration: none;
+}
+
+.full-video:hover {
+
+	color: rgba(3, 252, 28,0.8);
+	text-decoration: underline;
+}
+
+/*Ending container*/
+
+.hash{
+
+	color: white;
+	font-size: 25px;
+}
+
+.bottom{
+
+/*	margin-top:15px ;*/
+	color: black;
+	background-color: rgba(125, 130, 125, 0.6);
+}
+
+.name{
+
+	padding-top: 50px;
+	padding-right: 50px;
+/*	padding-bottom: 25px;*/
+	text-align: right;
+	color: black;
+}
+
+.contribution {
+
+	color: black;
+}
+
+.contribution:hover {
+
+	color: white;
+}
+
+.extra_title{
+
+
+	color: rgba(0, 0, 0, 1.0);
+	font-family: "Lucida Console",Monaco, monospace ;
+}
+
+.extra_description{
+
+
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 5px;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.8);
+	font-family: "Lucida Console",Monaco, monospace ;
+
+}
+
+.mailid{
+
+	color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+.mailid:hover{
+
+	color: black;
+}
+
+
+
+/*Network style*/
+
+.network-title{
+
+	border: none;
+	text-align: center;
+
+}
+
+/*.network-content{
+
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}*/
+
+.topics-discussed{
+
+	border: none;
+	text-align: left;
+	color: white;
+}
+
+.topics-list{
+
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+/*Tech_ethics style*/
+
+.caption{
+
+	color: white;
+	font-family: "Lucida Console",Monaco, monospace ;
+
+
+}
+
+.Start-title{
+
+	text-align: left;
+	border: none;
+	padding-left: 15px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	color: limegreen;
+/*	border-bottom: solid limegreen  ;*/
+}
+
+.lightcolor-w{
+
+	color: rgba(163, 165, 168,1.0);
+}
+
+.big-word-35{
+
+	font-size: 35px;
+}
+
+.big-word-25{
+	font-size: 25px;
+}
+
+.refer{
+
+	color: limegreen;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.refer:hover{
+
+	color: white;
+	text-decoration: underline;
+}
+
+/*--------------------Tech_ethics STYLE ENDS----------------------*/
+
